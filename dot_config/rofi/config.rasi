@@ -1,0 +1,13 @@
+*{
+	background: #2E3440;
+	normal-background: #3B4252;
+	border-color: #4C566A;
+	
+	foreground: #D8DEE9;
+
+	selected-normal-background: #D8DEE9;
+	selected-normal-foreground: #2E3440;
+		
+	alternate-normal-background: #434C5E;
+	alternate-normal-foreground: #E5E9F0;
+}

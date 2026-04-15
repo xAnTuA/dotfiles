@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 9567e804132a8ed2c9d92c7e926402535e09f538 awojtas <awojtas@archlinux.(none)> 1750249370 +0000	clone: from https://github.com/xantua/dotfiles-bash.git
+9567e804132a8ed2c9d92c7e926402535e09f538 95a1f1e0d5d8cb68318557602ad2b0b6a1c95a64 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1754576862 +0000	commit: feat(aliases): add cpp.sh
+95a1f1e0d5d8cb68318557602ad2b0b6a1c95a64 7d9da843246c3c1767403cdd72dbbca62c2b0142 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759825604 +0000	commit: feat(aliases): update git
+7d9da843246c3c1767403cdd72dbbca62c2b0142 0e4963790cb69f7b0773d7e37a875635a4600822 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759825840 +0000	commit: feat(aliases): update ssh
+0e4963790cb69f7b0773d7e37a875635a4600822 33df061e0fd1fb820b4753c7608b65b57ddfc1c1 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759825919 +0000	commit: feat(aliases): add copy from xclip
+33df061e0fd1fb820b4753c7608b65b57ddfc1c1 205286f1141d5c748af4067c0fcef6b3f5c6c365 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759826022 +0000	commit: feat(aliases): add navigation
+205286f1141d5c748af4067c0fcef6b3f5c6c365 2b1fba1207bb1630bbe022379690c10fef41340b AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759826100 +0000	commit: feat(aliases): add xampp alias to etc.sh
+2b1fba1207bb1630bbe022379690c10fef41340b c06aabae10d3a1ec4e7bf020bfb4250d25f42ef6 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759826197 +0000	commit: chore: remove commnets from init
+c06aabae10d3a1ec4e7bf020bfb4250d25f42ef6 5621d752c42af992d06aff2ad9d73a18fd496f67 AnTuA <108426137+xAnTuA@users.noreply.github.com> 1759829421 +0000	commit: feat(aliases): add git restore alias
