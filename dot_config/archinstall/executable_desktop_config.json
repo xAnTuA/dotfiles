@@ -22,7 +22,7 @@
     },
     "custom_commands": [
 		 "su - $(ls /home | head -n 1) -c  'chezmoi init --apply https://github.com/xAnTuA/dotfiles.git'",
-		 "su - $(ls /home | head -n 1) -c 'git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si --noconfirm && cd .. && rm -rf yay-bin'"
+		 "USER=$(ls /home | head -n 1); su - $USER -c 'cd ~ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -s --noconfirm' && pacman -U /home/$USER/yay-bin/*.pkg.tar.zst --noconfirm && rm -rf /home/$USER/yay-bin"
 	 ],
     "hostname": "archlinux",
     "kernels": [
