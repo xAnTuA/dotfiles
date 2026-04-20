@@ -79,7 +79,8 @@
 		  "picom",
 		  "proton-vpn-cli",
 		  "kitty",
-		  "git"
+		  "git",
+		  "scrot"
     ],
     "parallel_downloads": 0,
     "profile_config": {
