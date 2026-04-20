@@ -5,7 +5,7 @@
 set $mod Mod4
 
 # autostart
-exec_always --no-startup-id hsetroot -cover ~/.config/i3/wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
@@ -178,6 +178,12 @@ bar {
 	colors {
 		background #2e3440
 		statusline #eceff4
+		separator #ff0000
+
+		focused_workspace  #2e3440 #4c566a #eceff4
+		active_workspace   #333333 #5f676a #ff0000 # i guess only usefull for more than one monitor
+		inactive_workspace #4c566a #3b4252 #d8dee9
+		urgent_workspace   #d8dee9 #bf616a #eceff4
 	}
 }
 
