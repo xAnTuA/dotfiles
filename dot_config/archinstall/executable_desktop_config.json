@@ -80,7 +80,8 @@
 		  "proton-vpn-cli",
 		  "kitty",
 		  "git",
-		  "scrot"
+		  "scrot",
+		  "zsh"
     ],
     "parallel_downloads": 0,
     "profile_config": {
