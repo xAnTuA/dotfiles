@@ -11,17 +11,17 @@ align=center
 # ──────────────── BLOCKS ──────────────── #
 
 [memory]
-command=free -h | awk '/Mem:/ {print $3 "/" $2}'
-interval=30
-min_width=100
+command=free -h | awk '/Mem:/ {print "RAM:" $3 "/" $2}'
+interval=1
+min_width=120
 
 [disk]
-command=df -h / | awk 'NR==2 {print "" $3 "/" $2}'
+command=df -h / | awk 'NR==2 {print "[/]: " $3 "/" $2}'
 interval=60
-min_width=100
+min_width=120
 
 [network]
-command=ip route get 1.1.1.1 | awk '{print "Net: " $7}' 2>/dev/null
+command=ip route get 1.1.1.1 | awk '{print "IP: " $7}' 2>/dev/null
 interval=10
 min_width=150
 
