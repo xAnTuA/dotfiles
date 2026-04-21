@@ -25,6 +25,11 @@ command=ip route get 1.1.1.1 | awk '{print "IP: " $7}' 2>/dev/null
 interval=10
 min_width=150
 
+[volume]
+command=pactl get-sink-volume @DEFAULT_SINK@ | grep -oP '\d+(?=%)' | head -n 1 | awk '{print $1 "%"}'
+interval=1
+min_width=50
+
 [time]
 command=date '+%a %d %b %H:%M'
 interval=60
