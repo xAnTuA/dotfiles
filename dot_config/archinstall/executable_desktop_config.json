@@ -85,7 +85,9 @@
 		  "scrot",
 		  "zsh",
 		  "feh",
-		  "konsole"
+		  "konsole",
+		  "npm",
+		  "unzip"
     ],
     "parallel_downloads": 0,
     "profile_config": {
