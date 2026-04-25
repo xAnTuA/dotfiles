@@ -21,10 +21,10 @@
         "uki": false
     },
     "custom_commands": [
-		 "su - $(ls /home | head -n 1) -c  'chezmoi init --apply https://github.com/xAnTuA/dotfiles.git'",
+		 "su - $(ls /home | head -n 1) -c  'chezmoi init --apply --force https://github.com/xAnTuA/dotfiles.git'",
 		 "USER=$(ls /home | head -n 1); su - $USER -c 'cd ~ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -s --noconfirm' && pacman -U /home/$USER/yay-bin/*.pkg.tar.zst --noconfirm && rm -rf /home/$USER/yay-bin",
-		 "su - $(ls /home | head -n 1) -c 'CHSH=no RUNZSH=no KEEP_ZSH=yes sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"'",
-		 "chsh $(ls /home | head -n 1) -s /usr/bin/zsh"
+		 "su - $(ls /home | head -n 1) -c 'curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install; fish install --path=~/.local/share/omf --config=~/.config/omf -y --noninteractive'",
+		 "chsh $(ls /home | head -n 1) -s /usr/bin/fish"
 	 ],
     "hostname": "archlinux",
     "kernels": [
@@ -83,7 +83,7 @@
 		  "kitty",
 		  "git",
 		  "scrot",
-		  "zsh",
+		  "fish",
 		  "feh",
 		  "konsole",
 		  "npm",
