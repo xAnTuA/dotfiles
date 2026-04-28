@@ -87,7 +87,8 @@
 		  "feh",
 		  "konsole",
 		  "npm",
-		  "unzip"
+		  "unzip",
+		  "zoxide"
     ],
     "parallel_downloads": 0,
     "profile_config": {
