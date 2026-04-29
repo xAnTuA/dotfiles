@@ -32,7 +32,7 @@ bindsym $mod+F2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
 bindsym $mod+F3 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 
-bindsym $mod+x exec i3lock -i ~/.config/i3lock/lock_screen.png
+bindsym $mod+x exec i3lock -i ~/.config/i3/lock_screen.png --clock --fill
 
 
 # start a terminal
