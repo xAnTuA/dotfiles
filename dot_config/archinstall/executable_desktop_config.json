@@ -89,7 +89,8 @@
 		  "npm",
 		  "unzip",
 		  "zoxide",
-		  "bc"
+		  "bc",
+		  "man"
     ],
     "parallel_downloads": 0,
     "profile_config": {
