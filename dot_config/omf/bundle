@@ -1,3 +1,4 @@
 package archlinux
+package ssh-agent
 theme bobthefish
 theme default
