@@ -1,0 +1,8 @@
+[init]
+	defaulBranch = main
+	defaultBranch = main
+[user]
+	email = 108426137+xAnTuA@users.noreply.github.com
+	name = AnTuA
+[push]
+	autoSetupRemote = true
