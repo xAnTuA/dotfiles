@@ -95,7 +95,8 @@
         "tree-sitter-cli",
         "ripgrep",
         "ttf-jetbrains-mono-nerd",
-        "ttf-nerd-fonts-symbols-common"
+        "ttf-nerd-fonts-symbols-common",
+        "docker"
     ],
     "parallel_downloads": 0,
     "profile_config": {
