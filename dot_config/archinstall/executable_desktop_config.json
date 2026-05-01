@@ -96,7 +96,10 @@
         "ripgrep",
         "ttf-jetbrains-mono-nerd",
         "ttf-nerd-fonts-symbols-common",
-        "docker"
+        "docker",
+        "proton-vpn-gtk-app",
+        "qbittorrent",
+        "libreoffice-fresh"
     ],
     "parallel_downloads": 0,
     "profile_config": {
