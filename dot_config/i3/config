@@ -11,7 +11,6 @@ exec --no-startup-id dex --autostart --environment i3
 
 
 # [Auto Start]
-exec_always pkill -x feh
 exec_always --no-startup-id feh --bg-scale -rz ~/.config/i3/wallpapers
 exec_always --no-startup-id picom
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
