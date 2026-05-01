@@ -16,6 +16,10 @@ abbr ga git add
 abbr gs git status
 abbr gl git log
 abbr gd git diff
+abbr gp git push
+abbr gb git branch
+abbr gco git checkout
+abbr gcob git checkout -b
 
 # [Misc]
 abbr n nvim
