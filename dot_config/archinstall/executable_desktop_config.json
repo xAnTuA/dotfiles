@@ -24,7 +24,8 @@
 		 "su - $(ls /home | head -n 1) -c  'chezmoi init --apply --force https://github.com/xAnTuA/dotfiles.git'",
 		 "USER=$(ls /home | head -n 1); su - $USER -c 'cd ~ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -s --noconfirm' && pacman -U /home/$USER/yay-bin/*.pkg.tar.zst --noconfirm && rm -rf /home/$USER/yay-bin",
 		 "su - $(ls /home | head -n 1) -c 'curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install; fish install --path=~/.local/share/omf --config=~/.config/omf -y --noninteractive'",
-		 "chsh $(ls /home | head -n 1) -s /usr/bin/fish"
+		 "chsh $(ls /home | head -n 1) -s /usr/bin/fish",
+     "su - $(ls /home | head -n 1) -c 'nvim -c \"MasonInstallAll\" -c \"TSInstallAll\" -c \"quitall\"'"
 	 ],
     "hostname": "archlinux",
     "kernels": [
