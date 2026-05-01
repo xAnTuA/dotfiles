@@ -7,7 +7,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
+exec --no-startup-id dex --autostart --environment i3 -i ~/.config/i3/lock_screen.png --clock --fill
 
 
 # [Auto Start]
