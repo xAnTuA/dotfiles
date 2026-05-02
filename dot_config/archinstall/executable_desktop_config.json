@@ -100,7 +100,8 @@
         "proton-vpn-gtk-app",
         "qbittorrent",
         "libreoffice-fresh",
-        "rust"
+        "rust",
+        "blueman"
     ],
     "parallel_downloads": 0,
     "profile_config": {
