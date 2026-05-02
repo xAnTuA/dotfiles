@@ -13,6 +13,7 @@ abbr upgrade "sudo pacman -Syu && yay -Syu"
 # [Git]
 abbr gi git init
 abbr ga git add
+abbr gc "git commit -m \""
 abbr gs git status
 abbr gl git log
 abbr gd git diff
