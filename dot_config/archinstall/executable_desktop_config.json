@@ -99,7 +99,8 @@
         "docker",
         "proton-vpn-gtk-app",
         "qbittorrent",
-        "libreoffice-fresh"
+        "libreoffice-fresh",
+        "rust"
     ],
     "parallel_downloads": 0,
     "profile_config": {
