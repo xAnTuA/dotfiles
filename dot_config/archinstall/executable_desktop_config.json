@@ -101,7 +101,8 @@
         "qbittorrent",
         "libreoffice-fresh",
         "rust",
-        "blueman"
+        "blueman",
+        "xclip"
     ],
     "parallel_downloads": 0,
     "profile_config": {
