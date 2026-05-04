@@ -13,7 +13,7 @@ abbr upgrade "sudo pacman -Syu && yay -Syu"
 # [Git]
 abbr gi git init
 abbr ga git add
-abbr gc "git commit -m \""
+abbr --set-cursor gc "git commit -m \"%\""
 abbr gs git status
 abbr gl git log
 abbr gd git diff
@@ -24,3 +24,4 @@ abbr gcob git checkout -b
 
 # [Misc]
 abbr n nvim
+abbr cd z
