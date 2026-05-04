@@ -24,7 +24,6 @@ abbr gcob git checkout -b
 
 # [Misc]
 abbr n nvim
-abbr cd z
 abbr cha chezmoi add
 abbr chc chezmoi cd
 abbr chu chezmoi update
