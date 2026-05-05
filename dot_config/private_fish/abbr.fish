@@ -27,3 +27,4 @@ abbr n nvim
 abbr cha chezmoi add
 abbr chc chezmoi cd
 abbr chu chezmoi update
+abbr chs chezmoi status
