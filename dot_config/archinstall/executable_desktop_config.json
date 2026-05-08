@@ -103,7 +103,8 @@
         "rust",
         "blueman",
         "xclip",
-        "ts-node"
+        "ts-node",
+        "docker-compose"
     ],
     "parallel_downloads": 0,
     "profile_config": {
