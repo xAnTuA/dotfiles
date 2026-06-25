@@ -17,9 +17,29 @@ return {
   { import = "nvchad.blink.lazyspec" },
 
   {
-  	"nvim-treesitter/nvim-treesitter",
-  	opts = {
-  		ensure_installed = { "vim", "lua", "vimdoc", "html", "css", "fish", "markdown", "sql", "yaml", "json" }
-  	},
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "fish",
+        "markdown",
+        "sql",
+        "yaml",
+        "json",
+        "javascript",
+        "typescript",
+        "svelte"
+      },
+    },
+  },
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function() vim.fn["mkdp#util#install"]() end,
   },
 }
